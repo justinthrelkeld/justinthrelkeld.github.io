@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 
     config: {
       src: 'source',
-      dist: 'build'
+      dist: '.'
     },
 
     watch: {
@@ -107,7 +107,7 @@ module.exports = function(grunt) {
     // Before generating any new files,
     // remove any previously-created files.
     // ** ALL FILES IN /build WILL BE DELETED **
-    clean: ['<%= config.dist %>/**/*.{html,xml,css,js}']
+    //clean: ['<%= config.dist %>/**/*.{html,xml,css,js}']
 
   });
 
@@ -119,7 +119,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('server', [
-    'clean',
+    //'clean',
     'copy',
     'sass',
     'assemble',
@@ -128,7 +128,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('build', [
-    'clean',
+    //'clean',
     'copy',
     'sass',
     'assemble',
