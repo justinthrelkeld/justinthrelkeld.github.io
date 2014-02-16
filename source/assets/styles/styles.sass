@@ -1,3 +1,37 @@
+// grid settings
+
+$column: 60px
+$gutter: 20px
+$grid-columns: 5 // set this here for the visual grid
+$max-width: 30em
+// $visual-grid: true
+$visual-grid-index: front
+
+@import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+
 @import "../../../bower_components/bourbon/app/assets/stylesheets/bourbon"
-// @import "settings/neat";
 @import "../../../bower_components/neat/app/assets/stylesheets/neat"
+@import "../../../bower_components/mrmrs-colors/sass/colors"
+@import "_fonts"
+
+
+$grid-columns: 2
+
+// Define your breakpoints
+$desktop: new-breakpoint(min-width 700px 5)
+$tablet: new-breakpoint(min-width 200px 3)
+
+a
+  text-decoration: none
+
+html
+  font-family: "Arquitecta"
+  font-size: 30px
+  font-weight: lighter
+
+body
+  @include outer-container
+
+@include media($tablet)
+
+@include media($desktop)
