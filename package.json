@@ -1,0 +1,50 @@
+{
+  "name": "justinthrelkeld.github.io",
+  "description": "My personal blog",
+  "version": "0.1.0",
+  "homepage": "https://github.com/justinthrelkeld/justinthrelkeld.github.io",
+  "author": {
+    "name": "Justin Threlkeld",
+    "url": "http://github.com/justinthrelkeld/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinthrelkeld/justinthrelkeld.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinthrelkeld/justinthrelkeld.github.io/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.33",
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.2.1",
+    "time-grunt": "~0.2.7",
+    "assemble-markdown-data": "*",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "handlebars-helper-slugify": "~0.2.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/justinthrelkeld/justinthrelkeld.github.io/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "assemble",
+    "templates",
+    "handlebars",
+    "site generator",
+    "site builder",
+    "grunt"
+  ]
+}
