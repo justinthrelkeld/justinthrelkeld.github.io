@@ -29,10 +29,9 @@ module.exports = function(grunt) {
 
     watch: {
       assemble: {
-        files: ['<%= config.src %>/{content,data,templates,assets}/{,*/}*.{md,hbs,yml,sass,scss}'],
-        tasks: ['assemble', 'sass']
+        files: ['<%= config.src %>/{content,data,templates,assets}/{,*/}*.{md,hbs,yml,sass,scss,js}'],
+        tasks: ['assemble', 'sass', 'copy']
       },
-
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
