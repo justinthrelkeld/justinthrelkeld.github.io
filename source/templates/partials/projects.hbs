@@ -1,0 +1,8 @@
+---
+component: projects--repeatable
+---
+{{#each projects}}
+  <article class="project {{slugify ../title}}">
+    {{md this}}
+  </article>
+{{/each}}

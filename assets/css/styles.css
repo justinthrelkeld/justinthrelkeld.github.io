@@ -140,6 +140,85 @@ a:hover {
 a:active {
   color: #ff851b; }
 
+/* @license
+ * MyFonts Webfont Build ID 2748586, 2014-02-15T20:20:33-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Arquitecta Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Black Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/black-italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Black by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/black/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Bold Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/bold-italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/regular/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Book Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/book-italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Book by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/book/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Bold by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/bold/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Heavy Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/heavy-italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Heavy by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/heavy/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Light Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/light-italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Light by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/light/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Medium Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/medium-italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Medium by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/medium/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Thin Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/thin-italic/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ * Webfont: Arquitecta Thin by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/arquitecta/thin/
+ * Copyright: Copyright (c) 2013 by Miguel &amp; Daniel Hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ *
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2748586
+ * Licensed pageviews: 10,000
+ *
+ * © 2014 MyFonts Inc */
 @font-face {
   font-family: Arquitecta;
   font-weight: 100;
@@ -251,6 +330,14 @@ a:active {
   font-style: normal;
   src: url("/webfonts/ArquitectaBlack.eot");
   src: url("/webfonts/ArquitectaBlack.eot?#iefix") format("embedded-opentype"), url("/webfonts/ArquitectaBlack.woff") format("woff"), url("/webfonts/ArquitectaBlack.ttf") format("truetype"), url("/webfonts/ArquitectaBlack.svg#Arquitecta") format("svg"); }
+
+.fa {
+  font-size: 0.5em;
+  line-height: 1.8em; }
+
+abbr.fa {
+  text-decoration: none;
+  border: none; }
 
 a {
   text-decoration: none; }

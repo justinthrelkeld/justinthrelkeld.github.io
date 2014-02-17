@@ -1,12 +1,26 @@
 ---
 title: Home
-h1: 'Look, Another GitHub Blog!'
-lead: Just what the world needs
+projects:
+-
+  title: project 1
+  image: http://placehold.it/500x500
+  description: "<p>blah <em>Lorem</em> ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ipsa blanditiis eos repudiandae enim eius dignissimos. Debitis, eos, reiciendis cupiditate ipsam commodi magni omnis eveniet ducimus id voluptatem nesciunt dolorem.</p><p>blah <em>Lorem</em> ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ipsa blanditiis eos repudiandae enim eius dignissimos. Debitis, eos, reiciendis cupiditate ipsam commodi magni omnis eveniet ducimus id voluptatem nesciunt dolorem.</p>"
+-
+  title: project 2
+  image: http://placehold.it/500x500
+  description: "<p>blah Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ipsa blanditiis eos repudiandae enim eius dignissimos. Debitis, eos, reiciendis cupiditate ipsam commodi magni omnis eveniet ducimus id voluptatem nesciunt dolorem.</p>"
 ---
 <div>
-  <h1>{{ h1 }}</h1>
-  <h2>{{ lead }}</h2>
   <p>This page <del>was</del> <ins>wasn't</ins> created with Bootstrap. It was created with <a href="http://assemble.io">Assemble</a> and <a href="http://neat.bourbon.io">Bourbon Neat.</a></p>
   <p>It's the very earliest version of my new blog. I've been using Wordpress for way too long and need to take control of my life. As a developer there is really no excuse for this to have taken so long.</p>
   <p>Soon, there will be much, much more.</p>
+  <section class="projects-showcase">
+    {{#each projects}}
+    <article class="projects-showcase--project">
+      <h3>{{title}}</h3>
+      <img src="{{image}}" alt="">
+      {{{description}}}
+    </article>
+    {{/each}}
+  </section>
 </div>
