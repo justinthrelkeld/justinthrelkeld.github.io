@@ -31,7 +31,10 @@
     "assemble-markdown-data": "*",
     "grunt-contrib-sass": "~0.7.2",
     "grunt-contrib-copy": "~0.5.0",
-    "handlebars-helper-slugify": "~0.2.0"
+    "handlebars-helper-slugify": "~0.2.0",
+    "bower": "~1.2.8",
+    "grunt-bower-requirejs": "~0.8.4",
+    "grunt-contrib-requirejs": "~0.4.1"
   },
   "licenses": [
     {
