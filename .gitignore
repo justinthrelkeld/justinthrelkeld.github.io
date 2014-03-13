@@ -13,9 +13,9 @@ logs
 results
 
 npm-debug.log
-node_modules
 
 *.sublime-*
 
 .sass-cache
-build
+
+node_modules
