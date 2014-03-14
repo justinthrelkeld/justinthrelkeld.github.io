@@ -80,6 +80,9 @@ module.exports = function(grunt) {
           // Copy any vanilla CSS files included in the style source
           {expand: true, cwd: '<%= config.src %>/assets/styles', src: ['**', '!*.scss', '!*.sass'], dest: '<%= config.dist %>/assets/css'},
 
+          // Copy any images
+          {expand: true, cwd: '<%= config.src %>/content', src: ['*.jpg', '*.png', '*.jpeg'], dest: '<%= config.dist %>/'},
+
           // Copy any vanilla JS files included in the script source
           {expand: true, cwd: '<%= config.src %>/assets/scripts', src: ['**', '!*.coffee'], dest: '<%= config.dist %>/assets/js'}
         ]
@@ -95,7 +98,7 @@ module.exports = function(grunt) {
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
           plugins: ['assemble-markdown-data'],
-          helpers: ['handlebars-helper-slugify']
+          helpers: ['handlebars-helper-slugify', 'handlebars-helper-compose']
         },
         files: {
           '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
@@ -105,8 +108,8 @@ module.exports = function(grunt) {
 
     // Before generating any new files,
     // remove any previously-created files.
-    // ** ALL FILES IN /build WILL BE DELETED **
-    //clean: ['<%= config.dist %>/**/*.{html,xml,css,js}']
+    // ** ALL FILES IN `<%= config.dist %>` WILL BE DELETED **
+    //clean: ['<%= config.dist %>/**/*.{html,xml}', '<%= config.dist %>/assets/**/*.{js,css,img}']
 
   });
 

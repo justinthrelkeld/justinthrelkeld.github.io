@@ -34,7 +34,8 @@
     "handlebars-helper-slugify": "~0.2.0",
     "bower": "~1.2.8",
     "grunt-bower-requirejs": "~0.8.4",
-    "grunt-contrib-requirejs": "~0.4.1"
+    "grunt-contrib-requirejs": "~0.4.1",
+    "handlebars-helper-compose": "*"
   },
   "licenses": [
     {
