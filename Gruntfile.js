@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 
     config: {
       src: 'source',
-      dist: '.'
+      dist: 'build'
     },
 
     watch: {
