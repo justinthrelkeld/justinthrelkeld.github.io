@@ -171,6 +171,19 @@ ul.navigation
       content: '/'
     &:first-child:before
       content: ''
+
+footer
+  padding-bottom: 1em
+  font-size: 0.8em
+  text-align: center
+  transition: color .5s
+  abbr
+    transition: color .5s
+  &:hover
+    color: $blue
+    abbr
+
+
 @include media($tablet)
 
 @include media($desktop)
