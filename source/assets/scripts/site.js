@@ -1,6 +1,11 @@
 $(".projects-showcase").bxSlider({
+  slideSelector: 'article',
+  pagerSelector:'.projects-showcase--nav',
   adaptiveHeight: true,
   pager: false,
-  nextText: "<abbr title='next' class='fa fa-angle-right'> > </abbr>",
-  prevText: "<abbr title='previous' class='fa fa-angle-left'> < </abbr>"
+  slideWidth: 0,
+  nextText: "<a href='#next' class='nav--next' title='next'>next</a>",
+  prevText: "<a href='#prev' class='nav--prev' title='previous'>previous</a>",
+  nextSelector: '.projects-showcase--nav',
+  prevSelector: '.projects-showcase--nav'
 });

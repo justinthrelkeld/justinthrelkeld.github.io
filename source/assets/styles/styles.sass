@@ -83,6 +83,59 @@ html
 
 body
   @include outer-container
+.bx-viewport
+  clear: both
+  top: -3em
+.projects-showcase--nav
+  a.nav--next, a.nav--prev
+    font-size: 3em
+    position: relative
+    overflow: hidden
+    display: block
+    z-index: 10000
+    //text-indent: -1em
+    top: 200px
+    height: 1em
+    width: 0.5em
+    &:before
+      display: block
+
+    &.nav--next
+      float: right
+      right: -55px
+      &:before
+        font-family: FontAwesome
+        content: '\f105'
+    &.nav--prev
+      float: left
+      left: -55px
+      &:before
+        font-family: FontAwesome
+        content: '\f104'
+
+.projects-showcase--project
+  h3
+    text-align: center
+
+.project--image-wrapper__macbook
+  font-size: 40px
+  margin: 0 auto
+  width: 17.3em
+  height: 10em
+  background-image: url('macbook.png')
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center center
+  overflow: hidden
+  .crop-area
+    background-color: $blue
+    width: 9.32em
+    height: 5.9em
+    margin: 1.86em auto auto 4.03em
+    overflow: hidden
+    text-align: center
+    img
+      width: 100%
 
 @include media($tablet)
 
