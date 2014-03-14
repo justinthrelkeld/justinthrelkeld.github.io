@@ -2,8 +2,9 @@
 title: Blog
 posts: ['README.md', 'source/content/posts/*.md']
 ---
-<h1>Posts</h1>
-{{#each posts}}
-  <em>Post</em>
-  {{md this}}
-{{/each}}
+{{#compose src='<%= config.src %>/content/posts/*.md'}}
+<h1>{{@title}}</h1>
+{{#markdown}}
+{{{@content}}}
+{{/markdown}}
+{{/compose}}
