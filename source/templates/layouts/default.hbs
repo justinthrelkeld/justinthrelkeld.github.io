@@ -10,8 +10,12 @@
 
   </head>
   <body>
-    <h1 class="name"><span class="name--first">{{site.title}}</span> //</h1>
-
+    <a class="masthead" href="{{relative dist 'index.html'}}">
+        <h1 class="name"><span class="name--first">{{site.title}}</span> //</h1>
+    </a>
+    {{#unless customPages}}
+      {{> navigation }}
+    {{/unless}}
     {{> body }}
 
     {{> footer }}

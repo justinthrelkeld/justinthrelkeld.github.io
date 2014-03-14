@@ -1,0 +1,27 @@
+---
+component: navigation
+---
+<ul class="navigation">
+  {{#unless site.customPages}}
+    {{#if customPages}}
+      {{#each customPages}}
+      <li class="{{slugify title}} {{#if isCurrentPage}}active{{/if}}">
+        <a href="{{slug}}">{{title}}</a>
+      </li>
+      {{/each}}
+    {{else}}
+      {{#each pages}}
+      <li class="{{slugify data.title}} {{#if this.isCurrentPage}}active{{/if}}">
+        <a href="{{relative dest this.dest}}">{{data.title}}</a>
+      </li>
+      {{/each}}
+    {{/if}}
+  {{/unless}}
+  {{#if site.customPages}}
+      {{#each site.customPages}}
+      <li class="{{slugify title}} {{#if this.isCurrentPage}}active{{/if}}">
+        <a href="{{slug}}">{{title}}</a>
+      </li>
+      {{/each}}
+  {{/if}}
+</ul>
