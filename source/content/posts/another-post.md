@@ -1,2 +1,5 @@
-# another post!
+---
+title:
+---
+# another-post.md!
 booyah!

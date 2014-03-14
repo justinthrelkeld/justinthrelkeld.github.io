@@ -1,10 +1,12 @@
-[test]: http://google.com/ "Google"
-
-# A heading
-
+---
+title: foo
+---
+# Markdown.md
 Just a note, I've found that I can't test my markdown parser vs others.
 For example, both markdown.js and showdown code blocks in lists wrong. They're
 also completely [inconsistent][test] with regards to paragraphs in list items.
+
+[test]: http://google.com/ "Google"
 
 A link. Not anymore.
 
@@ -12,7 +14,6 @@ A link. Not anymore.
 markdown.js doesnt acknowledge arbitrary html blocks =/</aside>
 
 * List Item 1
-
 * List Item 2
   * New List Item 1
     Hi, this is a list item.
@@ -49,7 +50,7 @@ Another Heading
 -------------
 
 Hello *world*. Here is a [link](//hello).
-And an image ![alt](src).
+And an image ![alt](http://placehold.it/200).
 
     Code goes here.
     Lots of it...
