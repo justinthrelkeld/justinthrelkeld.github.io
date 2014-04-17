@@ -2,6 +2,7 @@
 date: July 19, 2013
 title: A Podcast Shortlist
 tags: [audio, Design, downloads, education, information, learning, listening, podcasts, resources]
+---
 
 I spend a lot of time commuting to my day job. The drive in isn’t so bad, but I can spend upwards of an hour and a half getting home some days. The best use of that time: podcasts. I’ve always loved podcasts because they’re easy to digest and there’s so much variety.
 
