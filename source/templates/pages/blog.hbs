@@ -3,8 +3,10 @@ title: Blog
 posts: ['README.md', 'source/content/posts/*.md']
 ---
 {{#compose src='<%= config.src %>/content/posts/*.md'}}
+<article>
 <h1>{{@title}}</h1>
 {{#markdown}}
 {{{@content}}}
 {{/markdown}}
+</article>
 {{/compose}}

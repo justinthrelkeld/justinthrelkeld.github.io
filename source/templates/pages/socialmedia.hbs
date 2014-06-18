@@ -1,0 +1,12 @@
+---
+title: Social Media Resources
+---
+<h1>{{title}}</h1>
+{{#compose src='<%= config.src %>/content/socialmedia.md'}}
+<article>
+  <h1>Social Media for Fun and Profit</h1>
+  {{#markdown}}
+  {{{@content}}}
+  {{/markdown}}
+</article>
+{{/compose}}
