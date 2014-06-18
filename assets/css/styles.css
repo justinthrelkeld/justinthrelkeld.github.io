@@ -225,96 +225,112 @@ a:active {
   font-style: italic;
   src: url("webfonts/ArquitectaThin-Italic.eot");
   src: url("webfonts/ArquitectaThin-Italic.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaThin-Italic.woff") format("woff"), url("webfonts/ArquitectaThin-Italic.ttf") format("truetype"), url("webfonts/ArquitectaThin-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 100;
   font-style: normal;
   src: url("webfonts/ArquitectaThin.eot");
   src: url("webfonts/ArquitectaThin.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaThin.woff") format("woff"), url("webfonts/ArquitectaThin.ttf") format("truetype"), url("webfonts/ArquitectaThin.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 200;
   font-style: italic;
   src: url("webfonts/ArquitectaLight-Italic.eot");
   src: url("webfonts/ArquitectaLight-Italic.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaLight-Italic.woff") format("woff"), url("webfonts/ArquitectaLight-Italic.ttf") format("truetype"), url("webfonts/ArquitectaLight-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 200;
   font-style: normal;
   src: url("webfonts/ArquitectaLight.eot");
   src: url("webfonts/ArquitectaLight.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaLight.woff") format("woff"), url("webfonts/ArquitectaLight.ttf") format("truetype"), url("webfonts/ArquitectaLight.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 300;
   font-style: italic;
   src: url("webfonts/ArquitectaBook-Italic.eot");
   src: url("webfonts/ArquitectaBook-Italic.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaBook-Italic.woff") format("woff"), url("webfonts/ArquitectaBook-Italic.ttf") format("truetype"), url("webfonts/ArquitectaBook-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 300;
   font-style: normal;
   src: url("webfonts/ArquitectaBook.eot");
   src: url("webfonts/ArquitectaBook.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaBook.woff") format("woff"), url("webfonts/ArquitectaBook.ttf") format("truetype"), url("webfonts/ArquitectaBook.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 500;
   font-style: italic;
   src: url("/webfonts/Arquitecta-Italic.eot");
   src: url("/webfonts/Arquitecta-Italic.eot?#iefix") format("embedded-opentype"), url("/webfonts/Arquitecta-Italic.woff") format("woff"), url("/webfonts/Arquitecta-Italic.ttf") format("truetype"), url("/webfonts/Arquitecta-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 500;
   font-style: normal;
   src: url("webfonts/Arquitecta.eot");
   src: url("webfonts/Arquitecta.eot?#iefix") format("embedded-opentype"), url("webfonts/Arquitecta.woff") format("woff"), url("webfonts/Arquitecta.ttf") format("truetype"), url("webfonts/Arquitecta.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 600;
   font-style: italic;
   src: url("webfonts/ArquitectaMedium-Italic.eot");
   src: url("webfonts/ArquitectaMedium-Italic.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaMedium-Italic.woff") format("woff"), url("webfonts/ArquitectaMedium-Italic.ttf") format("truetype"), url("webfonts/ArquitectaMedium-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 600;
   font-style: normal;
   src: url("webfonts/ArquitectaMedium.eot");
   src: url("webfonts/ArquitectaMedium.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaMedium.woff") format("woff"), url("webfonts/ArquitectaMedium.ttf") format("truetype"), url("webfonts/ArquitectaMedium.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 700;
   font-style: normal;
   src: url("webfonts/ArquitectaBold.eot");
   src: url("webfonts/ArquitectaBold.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaBold.woff") format("woff"), url("webfonts/ArquitectaBold.ttf") format("truetype"), url("webfonts/ArquitectaBold.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 700;
   font-style: italic;
   src: url("webfonts/ArquitectaBold-Italic.eot");
   src: url("webfonts/ArquitectaBold-Italic.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaBold-Italic.woff") format("woff"), url("webfonts/ArquitectaBold-Italic.ttf") format("truetype"), url("webfonts/ArquitectaBold-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 800;
   font-style: italic;
   src: url("webfonts/ArquitectaHeavy-Italic.eot");
   src: url("webfonts/ArquitectaHeavy-Italic.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaHeavy-Italic.woff") format("woff"), url("webfonts/ArquitectaHeavy-Italic.ttf") format("truetype"), url("webfonts/ArquitectaHeavy-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 800;
   font-style: normal;
   src: url("webfonts/ArquitectaHeavy.eot");
   src: url("webfonts/ArquitectaHeavy.eot?#iefix") format("embedded-opentype"), url("webfonts/ArquitectaHeavy.woff") format("woff"), url("webfonts/ArquitectaHeavy.ttf") format("truetype"), url("webfonts/ArquitectaHeavy.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 900;
   font-style: italic;
   src: url("/webfonts/ArquitectaBlack-Italic.eot");
   src: url("/webfonts/ArquitectaBlack-Italic.eot?#iefix") format("embedded-opentype"), url("/webfonts/ArquitectaBlack-Italic.woff") format("woff"), url("/webfonts/ArquitectaBlack-Italic.ttf") format("truetype"), url("/webfonts/ArquitectaBlack-Italic.svg#Arquitecta") format("svg"); }
+
 @font-face {
   font-family: Arquitecta;
   font-weight: 900;
   font-style: normal;
   src: url("/webfonts/ArquitectaBlack.eot");
   src: url("/webfonts/ArquitectaBlack.eot?#iefix") format("embedded-opentype"), url("/webfonts/ArquitectaBlack.woff") format("woff"), url("/webfonts/ArquitectaBlack.ttf") format("truetype"), url("/webfonts/ArquitectaBlack.svg#Arquitecta") format("svg"); }
+
 .fa {
   font-size: 0.5em;
   line-height: 1.8em; }
@@ -325,6 +341,9 @@ abbr.fa {
 
 a {
   text-decoration: none; }
+
+img {
+  max-width: 100%; }
 
 nav a, .navigation a {
   color: #0074d9; }
